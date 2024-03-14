@@ -1,0 +1,41 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #0049b7;
+  color: #fff;
+  text-align: center;
+  height: 100px; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+}
